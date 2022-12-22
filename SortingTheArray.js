@@ -11,7 +11,7 @@
 // const result= arr.sort((a, b) => b - a);   SORTIRA OD VECEG KA MANJEM
 // console.log(result);
 
-// SORT ARRAY OF OBJECTS BY AUTHORS LASTNAME
+///////////////////// SORT ARRAY OF OBJECTS BY AUTHORS LASTNAME
 
 const books = [
   { name: "Harry Potter", author: "Joanne Rowling" },
