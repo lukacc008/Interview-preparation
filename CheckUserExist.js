@@ -24,7 +24,6 @@ const isNameExists = (name, arr) => {
   const el = arr.find((el) => el.name === name);
   return Boolean(el);
 };
-console.log(el);
 
 
 
