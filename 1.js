@@ -39,5 +39,5 @@ const users = [
 // console.log(names);
 
 ///////////// SOLUTION NO. 3////////////////////   **** BEST SOLUTION****
-const names = users.map((user) => user.name);
+const names = users.map((user) => user.name); 
 console.log(names);
