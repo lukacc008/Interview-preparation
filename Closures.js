@@ -7,7 +7,7 @@ const privateSecret = () => {
 }
 
 const getSecret = privateSecret();
-console.log(getSecret())
+console.log(getSecret()) 
 
 
 
