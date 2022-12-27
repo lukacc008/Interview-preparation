@@ -1,23 +1,77 @@
-const users = [
-  {
-    id: 1,
-    name: "Jack",
-    isActive: true,
-    age: 20,
-  },
-  {
-    id: 2,
-    name: "John",
-    isActive: true,
-    age: 18,
-  },
-  {
-    id: 3,
-    name: "Mike",
-    isActive: false,
-    age: 30,
-  },
-];
+// const users = [
+//   {
+//     id: 1,
+//     name: "Jack",
+//     isActive: true,
+//     age: 20,
+//   },
+//   {
+//     id: 2,
+//     name: "John",
+//     isActive: true,
+//     age: 18,
+//   },
+//   {
+//     id: 3,
+//     name: "Mike",
+//     isActive: false,
+//     age: 30,
+//   },
+// ];
+
+// const privateCounter = () => {
+//   let count = 0;
+
+//   return {
+//     increment: (val = 1) => {
+//       count += val;
+//     },
+//     getValue: () => {
+//       return count;
+//     },
+//   };
+// };
+
+// const counter = privateCounter();
+// console.log(counter.getValue());
+// counter.increment();
+// console.log(counter.getValue());
+// console.dir(counter.getValue);
+
+
+const privateSecret = () => {
+  const secret = "tajna"
+
+  return () => secret;
+}
+
+const getSecret = privateSecret();
+console.log(getSecret());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // users.sort((user1,user2) => user1.age < user2.age ? 1 : -1);
 // const names = [];
@@ -26,12 +80,12 @@ const users = [
 // }
 // console.log(names);
 
-const sortedNamesByAge = users
-  .sort((user1, user2) => (user1.age > user2.age ? -1 : 1))
-  .filter((user) => user.isActive)
-  .map((user) => user.name);
+// const sortedNamesByAge = users
+//   .sort((user1, user2) => (user1.age > user2.age ? -1 : 1))
+//   .filter((user) => user.isActive)
+//   .map((user) => user.name);
 
-  console.log(sortedNamesByAge);
+//   console.log(sortedNamesByAge);
 
 // const activeUsers = [];
 
