@@ -16,7 +16,7 @@ const users = [
         name: "Mike",
         isActive: false
     },
-]; 
+];  
 
 
 
